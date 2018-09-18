@@ -12,7 +12,7 @@ var surum = main.surum;
 exports.run = (Octopus, message) => {
   message.channel.send({embed: {
                 author: {
-                    name: `Wolfy Güncel Sürüm Notları (Sürüm: 1.0.2 > ${surum})`,
+                    name: `Wolfy Güncel Sürüm Notları (Sürüm: 1.0.0 > ${surum})`,
                     icon_url: "https://cdn.discordapp.com/attachments/486838723422715904/491572996277010432/8.png"
                   },
                 color: 0xD97634,
