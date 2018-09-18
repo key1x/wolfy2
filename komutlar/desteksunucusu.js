@@ -1,6 +1,4 @@
-//Octopus by R4dar
-//
-//v2
+
 
 const Discord = require('discord.js');
 const main = require('../Main.json');
@@ -31,5 +29,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'destekSunucusu'
+  name: 'desteksunucusu'
 };
