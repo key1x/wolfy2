@@ -23,9 +23,9 @@ module.exports = member => {
     }
 
     if (member.user.bot) {
-        getDefaultChannel(member.guild).send(`${member.user} Botu Sunucuya İniş Yaptı :raised_hand: ${guild.name} Sunucusuna Hoş Geldin \nOctopus Hakkında Destek Almak İçin https://discord.gg/tvwJVqA \nOctopusu Sunucunuza Dahil Etmek İçin https://discordbots.org/bot/447836286825529365`)
+        getDefaultChannel(member.guild).send(`${member.user} Botu Sunucuya İniş Yaptı :raised_hand: ${guild.name} Sunucusuna Hoş Geldin `)
     }
     else {
-        getDefaultChannel(member.guild).send(`${member.user} Kullanıcısı Sunucuya İniş Yaptı :raised_hand: ${guild.name} Sunucusuna Hoş Geldin \nOctopus Hakkında Destek Almak İçin https://discord.gg/tvwJVqA \nOctopusu Sunucunuza Dahil Etmek İçin https://discordbots.org/bot/447836286825529365`)
+        getDefaultChannel(member.guild).send(`${member.user} Kullanıcısı Sunucuya İniş Yaptı :raised_hand: ${guild.name} Sunucusuna Hoş Geldin`)
     }
 }
