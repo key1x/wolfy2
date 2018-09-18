@@ -1,9 +1,3 @@
-//        ___       _                        
-//       / _ \  ___| |_ ___  _ __  _   _ ___ 
-//      | | | |/ __| __/ _ \| '_ \| | | / __|
-//      | |_| | (__| || (_) | |_) | |_| \__ \
-//       \___/ \___|\__\___/| .__/ \__,_|___/
-//                          |_|              
 
 const Discord = require("discord.js");
 const kernel = require("../Main.json");
@@ -13,7 +7,7 @@ if (args == 0) return message.channel.send("**Önerinizi Wolfy Yöneticisine Yol
 let komut = args.join(" ").slice(0)
 let user = message.author.username;
 let guild = message.guild.name;
-let channel = Octopus.channels.get("160411336948318209")
+let channel = Octopus.channels.get("487601404475605002")
 let embed = new Discord.RichEmbed()
 .setTitle("Öneri")
 .addField("Belirtilen Öneri:", komut)
