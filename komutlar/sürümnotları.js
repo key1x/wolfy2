@@ -16,7 +16,7 @@ exports.run = (Octopus, message) => {
                     icon_url: "https://cdn.discordapp.com/attachments/486838723422715904/491572996277010432/8.png"
                   },
                 color: 0xD97634,
-                description: `**v2.0.0:** Yeni Müzik Komutları *(${prefix}müzik)*, Çeşitli Hata Düzeltmeleri \n**v2.0.1:** Müzik Komutlarındaki Ufak Hatalar Giderildi \n**v2.0.2:** ${prefix}ping Komutu Gabriella'nın Trafiğini Gösterdiğinden Gabriella İçin Yeniden Tasarlandı, Giriş Mesajı Yeniden Düzenlendi, Ufak Hatalar Düzeltildi, ${prefix}sürümNotları Komutu Düzenlendi`
+                description: `**v1.0.0:** Yeni Müzik Komutları *(${prefix}müzik)*, Çeşitli Hata Düzeltmeleri \n**v1.0.1:** Müzik Komutlarındaki Ufak Hatalar Giderildi \n**v1.0.2:** ${prefix}ping Komutu Wolfy'nin Trafiğini Gösterdiğinden Wolfy İçin Yeniden Tasarlandı, Giriş Mesajı Yeniden Düzenlendi, Ufak Hatalar Düzeltildi, ${prefix}sürümNotları Komutu Düzenlendi`
               }});
 };
 
@@ -28,5 +28,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'sürümNotları'
+  name: 'sürümnotları'
 };
