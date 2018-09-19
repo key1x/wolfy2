@@ -89,11 +89,11 @@ function OctopusDurumu() {
   //  ` Geliştiricim ${ad} `,
     ` Hataya Rastlarsanız ${prefix}hataRaporla `,
     ` Önerileriniz İçin ${prefix}öner `,
-    ` ${Octopus.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} Kullanıcıya Hizmet Vermekteyim. ` // Octopus Oyunu
+    ` ${Octopus.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} Kullanıcıya Hizmet Vermekteyim. ` // Wolfy Oyunu
     ];
     let OctoDurumu = Math.floor(Math.random() * status.length);
 
-    Octopus.user.setActivity(status[OctoDurumu], {type: "STREAMING"}); // Octopus Durumu
+    Octopus.user.setActivity(status[OctoDurumu], {type: "WATCHING"}); // Wolfy Durumu
     }; setInterval(OctopusDurumu, 5600)
        setInterval(() => {
 	   dbl.postStats(Octopus.guilds.size)
