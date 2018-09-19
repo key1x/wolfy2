@@ -20,7 +20,7 @@ function timeCon(time) {
     hours = hours > 9 ? hours : "" + hours
     minutes = minutes > 9 ? minutes : "" + minutes
     seconds = seconds > 9 ? seconds : "" + seconds
-    return (parseInt(days) > 0 ? days + " G�n " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " Saat ") + minutes + " Dakika " + seconds + " Saniye "
+    return (parseInt(days) > 0 ? days + " Gün " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " Saat ") + minutes + " Dakika " + seconds + " Saniye "
 }
 const winston = require('winston')
 var logger = new (winston.Logger)({
@@ -37,18 +37,18 @@ exports.run = function (Octopus, message, params, cmd) {
         .setColor('#7d5bbe')
         .setTitle(Octopus.user.username + " Surum: " + main.surum + ` Durumu`)
         .setDescription(Octopus.user.username + timeCon(process.uptime()) + 'dir Aktif Durumda ')
-        .addField('🏠 Sunucular', Octopus.guilds.size, true)
-        .addField('📄 Kanallar', Octopus.channels.size, true)
-        .addField('🤵 Toplam Kullanicilar', Octopus.users.size, true)
-        .addField('🐏 Bellek Kullanimi', `${((process.memoryUsage().heapUsed / 1024) / 1024).toFixed(2)} MB`, true)
-        .addField('🏓 Trafigi', `${(Octopus.ping).toFixed(0)} ms`, true)
+        .addField('ðŸ  Sunucular', Octopus.guilds.size, true)
+        .addField('ðŸ“„ Kanallar', Octopus.channels.size, true)
+        .addField('ðŸ¤µ Toplam Kullanicilar', Octopus.users.size, true)
+        .addField('ðŸ Bellek Kullanimi', `${((process.memoryUsage().heapUsed / 1024) / 1024).toFixed(2)} MB`, true)
+        .addField('ðŸ“ Trafigi', `${(Octopus.ping).toFixed(0)} ms`, true)
         .addField(`:control_knobs: Alt Yapisi`, `Discord JS v${Discord.version}`, true)
         .addField(`:computer: Node Surumu `, `${process.version}`, true)
         .addField(`:regional_indicator_h: :regional_indicator_o: :regional_indicator_s: :regional_indicator_t: Makinesinin Adi`, `${Surum.hostname}`, true)
         .addField(`:white_check_mark: Host Makinesinin Isletim Sistemi`, `${Surum.platform}`, true)        
         .addField(`:construction_worker: Kurucusu`, `${ad}`, true)
         .addField(`:pray: Destekler`, `${destekler}`, true)
-        //.addField(`:electric_plug: CPU Kullan�m�:`, `${Surum.cpus}`)
+        //.addField(`:electric_plug: CPU Kullanýmý:`, `${Surum.cpus}`)
     message.channel.send({ embed: embed })
 };
 
@@ -60,5 +60,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'botDurumu',
+  name: 'botdurumu',
 };
