@@ -1,9 +1,3 @@
-//        ___       _                        
-//       / _ \  ___| |_ ___  _ __  _   _ ___ 
-//      | | | |/ __| __/ _ \| '_ \| | | / __|
-//      | |_| | (__| || (_) | |_) | |_| \__ \
-//       \___/ \___|\__\___/| .__/ \__,_|___/
-//                          |_|              
 
 const Discord = require('discord.js');
 const Octopus = new Discord.Client();
@@ -99,7 +93,7 @@ function OctopusDurumu() {
     ];
     let OctoDurumu = Math.floor(Math.random() * status.length);
 
-    Octopus.user.setActivity(status[OctoDurumu], {type: "WATCHING"}); // Octopus Durumu
+    Octopus.user.setActivity(status[OctoDurumu], {type: "STREAMING"}); // Octopus Durumu
     }; setInterval(OctopusDurumu, 5600)
        setInterval(() => {
 	   dbl.postStats(Octopus.guilds.size)
