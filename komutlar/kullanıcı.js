@@ -19,7 +19,7 @@ module.exports.run = async (Octopus, message, params) => {
             fields: [
 				{
                 name: ":boy: :girl: **Kullanıcı Komutları**",
-                value: prefix + "**kullanıcıBilgim** `-" + " Hesabınızın Bilgilerini Gösterir`" + "\n" + prefix + "**ping** `-" + " Wolfy'nın Yanıt Trafiğini Gösterir`" + "\n" + prefix + "**başvuru** `-" + " Sunucunuzdaki Rollere Başvurmanızı Sağlar`" + "\n" + prefix + "**yaz** `-" + " Yazınızı Bota Yazdırır`" + "\n" + prefix + "**duyuru** `-" + " Yazınızı Sunucunuza Duyuru Yapar`" + "\n" + prefix + "**botDurumu** `-" + " Botun Bilgilerini Gösterir`" + "\n" + prefix + "**öner** `-" + " Önerinizi Botun Sahibine Yollar`" + "\n" + prefix + "**hataRaporla** `-" + " Belirtilen Bot Hatalarını Botun Sahibine Yollar`" + "\n" + prefix + "**hatırlat** `-" + " Yazınızı Belirtilen Süre Sonra Geri İletir`" + "\n" + prefix + "**botoyla** `-" + " Belirtilen siteden Wolfy'yi oylayabilirsiniz`",
+                value: prefix + "**kullanıcıBilgim** `-" + " Hesabınızın Bilgilerini Gösterir`" + "\n" + prefix + "**ping** `-" + " Wolfy'nın Yanıt Trafiğini Gösterir`" + "\n" + prefix + "**başvuru** `-" + " Sunucunuzdaki Rollere Başvurmanızı Sağlar`" + "\n" + prefix + "**yaz** `-" + " Yazınızı Bota Yazdırır`" + "\n" + prefix + "**duyuru** `-" + " Yazınızı Sunucunuza Duyuru Yapar`" + "\n" + prefix + "**botDurumu** `-" + " Botun Bilgilerini Gösterir`" + "\n" + prefix + "**öner** `-" + " Önerinizi Botun Sahibine Yollar`" + "\n" + prefix + "**hataRaporla** `-" + " Belirtilen Bot Hatalarını Botun Sahibine Yollar`" + "\n" + prefix + "**hatırlat** `-" + " Yazınızı Belirtilen Süre Sonra Geri İletir`-" + "\n" + prefix + "**botoyla** `-" + " Belirtilen siteden Wolfy'yi oylayabilirsiniz`",
 				}
 			  ],
 			timestamp: new Date(),
