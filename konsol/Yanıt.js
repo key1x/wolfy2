@@ -1,6 +1,3 @@
-//Wolfy by wache4starsz
-//
-//v2
 
 const chalk = require('chalk');
 const main = require("../Main.json");
