@@ -86,7 +86,7 @@ function OctopusDurumu() {
     ` Sürümüm: ${surum}. `,
     ` ${surum} Yeniliklerine Bakmak İçin ${prefix}sürümNotları. `,
     ` ${Octopus.guilds.size} Sunucuya Hizmet Vermekteyim `,
-  //  ` Geliştiricim ${ad} `,
+    ` Geliştiricim ${ad} `,
     ` Hataya Rastlarsanız ${prefix}hataRaporla `,
     ` Önerileriniz İçin ${prefix}öner `,
     ` ${Octopus.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} Kullanıcıya Hizmet Vermekteyim. ` // Wolfy Oyunu
@@ -99,7 +99,7 @@ function OctopusDurumu() {
 	   dbl.postStats(Octopus.guilds.size)
        }, 1800000);
 
-//Küfür & Cevap Filitresi
+//Küfür & Cevap Filtresi
 Octopus.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
     msg.reply('**Aleyküm Selam**');
