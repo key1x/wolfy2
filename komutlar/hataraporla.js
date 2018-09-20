@@ -13,7 +13,7 @@ if (args == 0) return message.channel.send("**Raporunuzu Wolfy Yöenetimine Yoll
 let komut = args.join(" ").slice(0)
 let user = message.author.username;
 let guild = message.guild.name;
-let channel = Octopus.channels.get("486844392041218058")
+let channel = Octopus.channels.get("491954741358624778")
 let embed = new Discord.RichEmbed()
 .setTitle("Rapor")
 .addField("Beliritilen Rapor:", komut)
