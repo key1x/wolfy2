@@ -7,7 +7,7 @@ if (args == 0) return message.channel.send("**Önerinizi Wolfy Yöneticisine Yol
 let komut = args.join(" ").slice(0)
 let user = message.author.username;
 let guild = message.guild.name;
-let channel = Octopus.channels.get("487601404475605002")
+let channel = Octopus.channels.get("491954741358624778")
 let embed = new Discord.RichEmbed()
 .setTitle("Öneri")
 .addField("Belirtilen Öneri:", komut)
